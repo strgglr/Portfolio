@@ -6,13 +6,6 @@ import App from './App'
 import './index.css'
 
 
-// window.onload = function(){
-//   if(!window.location.hash){
-//     window.location = window.location + '#loaded';
-//     window.location.reload();
-//   }
-// }
-
 ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter forceRefresh = {true}>
